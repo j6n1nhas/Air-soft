@@ -12,5 +12,5 @@ O objetivo principal para além do objeto do site em si, é desenvolvermos as no
 
 ### Conteúdo do repositório
 
-Neste repositório encontra-se a raíz do projeto que consiste num website com a página de partida em **_index.php**_. No commit inicial, retirou-se um ficheiro de vídeo com mais de 100Mb, uma vez que não vai influenciar o desenvolvimento.
+Neste repositório encontra-se a raíz do projeto que consiste num website com a página de partida em _**index.php**_. No commit inicial, retirou-se um ficheiro de vídeo com mais de 100Mb, uma vez que não vai influenciar o desenvolvimento.
 Na raíz encontra-se também o ficheiro _**id16025034_airsoftstore.sql**_ que é o mysqldump da base de dados que está a ser utilizada. Para a base de dados, está o esboço feito mas ainda não tem regras de integridade criadas para permitir ações temporárias na fase de programação.
