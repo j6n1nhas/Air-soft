@@ -1,0 +1,251 @@
+header{
+  margin: 0;
+  position: fixed;
+  top:0;
+  z-index: 1;
+  background-color: rgb(0, 0, 0);
+  background-image: url("badgeofhonor.png");
+  padding-bottom: 16px;
+  background-repeat: no-repeat;
+  height: 188px;
+  width: 100%;
+  background-position: left center;
+  color:white;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #333;
+}
+.active {/* Style The Dropdown Button */
+  background-color: red;
+}
+.dropbtn {/* The container <div> - needed to position the dropdown content */
+  color: white;
+  padding: 6px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {/* Dropdown Content (Hidden by Default) */
+  position: absolute;
+  display: inline-block;
+}
+.dropdown-content {/* Links inside the dropdown */
+  display: none;
+  position: relative;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  position:relative;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #333;}/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {/* Change the background color of the dropdown button when the dropdown content is shown */
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color:#333;
+}
+body{
+  margin: 0;
+  background-color: black;
+  color:white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  word-spacing: 3px;
+}
+#team h1{
+  text-align: center;
+
+}
+#team{
+  top: 160px;
+  text-align: justify;
+  width:75%;
+  margin: 0 auto; 
+  position: relative;
+  
+}
+#team img{
+  border-style: double;
+  border-width: thick;
+  border-color: darkgrey;
+  width:100%;
+  border-radius: 50px;
+}
+#photolinks img{
+margin-top: 210px;
+width: 100%;
+height: 100%;
+}
+#missao h1{
+  text-align: center;
+  
+}
+
+#missao{
+  margin-right:5px;
+  text-align: justify;
+  font-size: 28px;
+}
+#missao img{
+  padding-right: 5px;
+  margin: 0;
+  float: left;
+  width:55%;
+  height: 100%;
+}
+#eventos{
+  text-align:center;
+}
+#eventos img{
+  float: center;
+  margin-top: 250px;
+}
+#eventocinel{
+  background-color: black;
+}
+#eventocinel img{
+  width: 100%;
+  
+}
+  /* unvisited link */
+#eventocinel a:link {
+    color: white;
+  }
+  /* visited link */
+#eventocinel a:visited {
+    color: red;
+  }
+  /* mouse over link */
+#eventocinel a:hover {
+    color: grey;
+  }
+  #contacto{margin-top: 300px;}
+  #contacto h2{text-align:center; }
+  #Questionário h1{text-align: center;}
+
+  form{
+    width: 800px; margin:auto; padding-top: 20px; color:white; background-color: rgb(19, 19, 19);
+  }
+  
+  label{
+    margin: 10px;
+  }
+ 
+input{
+    margin:8px 0;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color:whitesmoke;
+  }
+
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin:8px 0;
+    box-sizing:border-box;
+    border:none;
+    background-color:whitesmoke ;
+  }
+
+
+#products{
+ margin-left: 13%;
+ margin-right: 13%;
+
+}
+
+div.boxlink{
+  margin-top: 220px;
+  margin-left: 7px; 
+  margin-right: 7px;
+  }
+
+#Album{
+  
+  margin: 25%;
+  height: 100%;
+  width: 50%;
+  position:relative;
+}
+
+.clearfix {
+  content: none;
+  height: 0;
+  clear: both;
+} 
+
+div.gallery{
+  float: left;
+  width: 180px;
+  height: 250px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 150px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.links {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+div.links img {
+  width:100%;
+  height:125px;
+}
+
+#footbanner img{
+  height: auto;
+  width: 100%;
+}
+
+footer{
+  text-decoration:underline;
+  font-style: italic;
+  background-color: black;
+}
+
+div.col-xs-3{
+  height: auto;
+  text-align: center;
+}
+
+#idmapa{
+  height: 50vh;
+}
